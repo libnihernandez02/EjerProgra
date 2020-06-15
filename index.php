@@ -1,5 +1,8 @@
 <?php
-    
+    //include('Controlador/Home.Controller.php');
+	//include('Controlador/User.Controller.php');
+	include('AutoLoad.php');
+
     if(isset($_GET['controller']))
     {
       $controller=$_GET['controller'];
