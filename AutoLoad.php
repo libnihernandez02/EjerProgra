@@ -2,7 +2,7 @@
 
     function AutoLoad($carga)
     {
-	    echo "Cargar Clase: ".$carga."<br>";
+	    //echo "Cargar Clase: ".$carga."<br>";
 
         if(is_file('Controlador/'.$carga.'.Controller.php'))
         {

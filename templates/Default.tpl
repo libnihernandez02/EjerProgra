@@ -11,8 +11,9 @@
     <title>Hello, world!</title>
   </head>
   <body>
+    <div align ="Center">
     <h1>Hello, world!</h1>
-
+	</div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 

@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.34-dev-7, created on 2020-06-16 00:32:08
+/* Smarty version 3.1.34-dev-7, created on 2020-06-16 00:36:00
   from 'C:\xampp\htdocs\Progra\EjerProgra\templates\Default.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.34-dev-7',
-  'unifunc' => 'content_5ee7f6e8110160_10816482',
+  'unifunc' => 'content_5ee7f7d0182e89_37778078',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '7e7d2abde1c7764c250eda35d9598621d5a5f715' => 
     array (
       0 => 'C:\\xampp\\htdocs\\Progra\\EjerProgra\\templates\\Default.tpl',
-      1 => 1592260267,
+      1 => 1592260557,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5ee7f6e8110160_10816482 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5ee7f7d0182e89_37778078 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!doctype html>
 <html lang="es">
   <head>
@@ -34,8 +34,9 @@ function content_5ee7f6e8110160_10816482 (Smarty_Internal_Template $_smarty_tpl)
     <title>Hello, world!</title>
   </head>
   <body>
+    <div align ="Center">
     <h1>Hello, world!</h1>
-
+	</div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 
