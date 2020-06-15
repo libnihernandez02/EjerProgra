@@ -15,6 +15,11 @@
         echo "En clase Home y metodo inicio";
     }
 
+	public function Funcion2()
+	{
+		echo "En controlador Home y metodo Funcion2";
+	}
+
   }
 
  ?>
