@@ -12,7 +12,8 @@
 
     public function Inicio()
     {
-        echo "En clase Home y metodo inicio";
+        $smarty =new Smarty();
+		$smarty ->display('Default.tpl');
     }
 
 	public function Funcion2()
