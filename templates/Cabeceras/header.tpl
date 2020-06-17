@@ -8,6 +8,6 @@
     <!-- Bootstrap CSS -->
 
     <link rel="stylesheet" href="./Framework/Bootstrap/css/bootstrap.min.css">
-    <title>Hello, world!</title>
+    <title>Inicio</title>
   </head>
   <body>
