@@ -22,7 +22,7 @@
 
 		$consulta=$model->BuscarUsuario("user",123);
 
-		var_dump();
+		var_dump($consulta);
 	}
 
   }
