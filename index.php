@@ -10,8 +10,8 @@
     }
     else
     {
-      $controller="Home";
-      $action="Inicio";
+      $controller="Home";//acede a las clases
+      $action="Inicio";//accede a los metodos o funciones
     }
 
     if(class_exists ($controller) && method_exists($controller,$action))
