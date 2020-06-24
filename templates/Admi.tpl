@@ -15,6 +15,7 @@
 </div>
 
 <div class="row justify-content-md-center">
+
 	<div class="col-3 ">
 		<ul class="nav flex-column alert-danger">
 			<br><br><br>
@@ -31,7 +32,7 @@
 	</div>
 
 	<div class="col-9">
-		{iclude file="AdminHDUser.tpl"}
+		
 	</div>
 </div>
 
