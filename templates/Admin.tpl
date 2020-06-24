@@ -5,7 +5,7 @@
 				<h4>Usuario: </h4>
 			</li>
 			<li class="nav-item">
-
+			------------------------------
 			</li>
 			<li class="nav-item">
 				<h4>Tipo: </h4>

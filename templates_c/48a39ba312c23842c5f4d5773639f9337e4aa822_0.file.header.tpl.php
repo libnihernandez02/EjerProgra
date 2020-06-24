@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.34-dev-7, created on 2020-06-17 22:25:22
+/* Smarty version 3.1.34-dev-7, created on 2020-06-24 18:54:14
   from 'C:\xampp\htdocs\Progra\EjerProgra\templates\Cabeceras\header.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.34-dev-7',
-  'unifunc' => 'content_5eea7c3271acd6_11593058',
+  'unifunc' => 'content_5ef38536845134_96584125',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '48a39ba312c23842c5f4d5773639f9337e4aa822' => 
     array (
       0 => 'C:\\xampp\\htdocs\\Progra\\EjerProgra\\templates\\Cabeceras\\header.tpl',
-      1 => 1592425400,
+      1 => 1593016126,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5eea7c3271acd6_11593058 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5ef38536845134_96584125 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!doctype html>
 <html lang="es">
   <head>
@@ -33,5 +33,6 @@ function content_5eea7c3271acd6_11593058 (Smarty_Internal_Template $_smarty_tpl)
     <link rel="stylesheet" href="./Framework/Bootstrap/css/bootstrap.min.css">
     <title>Inicio</title>
   </head>
-  <body><?php }
+  <body>
+  <div class="container";<?php }
 }
