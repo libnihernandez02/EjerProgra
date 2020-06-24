@@ -4,11 +4,11 @@
 		<form method="post" action="?controller=User&action=ValidarUsuario">
 			<div class="form-group">
 				<label for="usuario">Usuario</label>
-				<input type="tex" class="form-control" id="usuario" name"usuario" aria-describedby="emailHelp">
+				<input type="tex" class="form-control" id="usuario" name="usuario" aria-describedby="emailHelp">
 			</div><br>
 			<div class="form-group">
 				<label for="password">Password</label>
-				<input type="password" class="form-control" name"password" id="password" >
+				<input type="password" class="form-control" name="password" id="password" >
 			</div><br>
 			<div class="form-group">
 				<label for="tipo">Tipo Trabajador</label>
