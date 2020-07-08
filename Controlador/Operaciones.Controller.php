@@ -10,6 +10,6 @@ class Operaciones
 	
 	public function VentanaCrearUsuario()
 	{
-		echo "en VentanaCrearUsuario"
+		echo "en VentanaCrearUsuario";
 	}
 }
