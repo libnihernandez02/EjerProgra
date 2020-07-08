@@ -1,6 +1,6 @@
 <div class="row justify-content-md-center">
 	<div class="col ">
-		<br><h1>CrearUsuario</h1><br>
+		<br><h1>Crear Usuario</h1><br>
 		<form method="post" action="">
 			<div class="form-group">
 				<label for="usuario">Usuarios</label>

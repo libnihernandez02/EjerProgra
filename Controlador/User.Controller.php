@@ -28,7 +28,10 @@ class User
 
         while($row=mysqli_fetch_assoc($dato))
         {
-            echo $row['user']."---".$row['tipo'];
+            //echo $row['user']."---".$row['tipo'];
+			$smarty->assign('usuario',$row['user']);
+			$smarty->assign('tipo',$row['tipo']);
+			$smarty->display('Default.tpl');
         }
 
 			

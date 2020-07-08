@@ -20,19 +20,14 @@
 		<ul class="nav flex-column alert-danger">
 			<br><br><br>
 			<li class="nav-item">
-				<a class="nav-link active" href="?controller=Operaciones&action=VentanaCrearUsuario">Crear Usuario</a>
+				<a class="nav-link active" href="#">Ingresar Inventario</a>
 			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="#">Crear Habilitar/Deshabilitar Usuario</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="#">Ver Inventario</a>
-			</li><br><br><br>
+			<br><br><br>
 		</ul>
 	</div>
 
 	<div class="col-9">
-		{include file='AdminCrearUser.tpl'}
+		
 	</div>
 </div>
 
