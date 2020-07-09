@@ -13,6 +13,7 @@ class User
 				
 		//echo "en controller user y metodo  ValidarUsuario<br>";
 		//var_dump($_POST);
+		session_start(); 
 		$user=new Usuarios(); 
 		$smarty=new Smarty();
 		
@@ -29,8 +30,11 @@ class User
         while($row=mysqli_fetch_assoc($dato))
         {
             //echo $row['user']."---".$row['tipo'];
-			$smarty->assign('usuario',$row['user']);
-			$smarty->assign('tipo',$row['tipo']);
+			$_SESSION['user']=$row['user'];
+			$_SESSION['tipo']=$row['tipo'];
+
+			$smarty->assign('usuario',$_SESSION['user']);
+			$smarty->assign('tipo',$_SESSION['tipo']);
 			$smarty->display('Default.tpl');
         }
 

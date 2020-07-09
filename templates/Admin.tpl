@@ -23,16 +23,28 @@
 				<a class="nav-link active" href="?controller=Operaciones&action=VentanaCrearUsuario">Crear Usuario</a>
 			</li>
 			<li class="nav-item">
-				<a class="nav-link" href="#">Crear Habilitar/Deshabilitar Usuario</a>
+				<a class="nav-link" href="?controller=Operaciones&action=VentanaHDUser">Habilitar/Deshabilitar Usuario</a>
 			</li>
 			<li class="nav-item">
-				<a class="nav-link" href="#">Ver Inventario</a>
+				<a class="nav-link" href="?controller=Operaciones&action=VentanaVerInventario">Ver Inventario</a>
 			</li><br><br><br>
 		</ul>
 	</div>
 
 	<div class="col-9">
-		{include file='AdminCrearUser.tpl'}
+		{if isset($ventana)}
+			{if $ventana=="vcu"}
+				{include file='AdminCrearUser.tpl'}
+			{else if $ventana=="vhdu"}
+				{include file='AdminHDUser.tpl'}
+			{else if $ventana=="vvi"}
+				<p>ventana ver inventario</p>
+			{else}
+
+			{/if}
+		{else}
+			<p>info de la empresa</p>
+		{/if}
 	</div>
 </div>
 
