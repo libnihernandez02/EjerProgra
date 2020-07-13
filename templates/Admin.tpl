@@ -38,7 +38,10 @@
 			{else if $ventana=="vhdu"}
 				{include file='AdminHDUser.tpl'}
 			{else if $ventana=="vvi"}
-				<p>Esta viendo ventana de inventario</p>
+				<p>Esta viendo la ventana del Inventario</p>
+			{else}
+			<p>info de la empresa</p>
+			{/if}
 		{else}
 			<p>info de la empresa</p>
 		{/if}
