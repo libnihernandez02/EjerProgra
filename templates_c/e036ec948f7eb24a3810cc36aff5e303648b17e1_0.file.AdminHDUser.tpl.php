@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.34-dev-7, created on 2020-07-13 21:06:40
+/* Smarty version 3.1.34-dev-7, created on 2020-07-13 21:07:36
   from 'C:\xampp\htdocs\Progra\EjerProgra\templates\AdminHDUser.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.34-dev-7',
-  'unifunc' => 'content_5f0cb0c08f1f53_35606688',
+  'unifunc' => 'content_5f0cb0f808d6b6_16816347',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'e036ec948f7eb24a3810cc36aff5e303648b17e1' => 
     array (
       0 => 'C:\\xampp\\htdocs\\Progra\\EjerProgra\\templates\\AdminHDUser.tpl',
-      1 => 1594667196,
+      1 => 1594667223,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5f0cb0c08f1f53_35606688 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5f0cb0f808d6b6_16816347 (Smarty_Internal_Template $_smarty_tpl) {
 ?><form>
   <div class="form-row">
   <div class="form-group col-md-6">
