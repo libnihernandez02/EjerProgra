@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.34-dev-7, created on 2020-07-13 21:09:38
+/* Smarty version 3.1.34-dev-7, created on 2020-07-13 21:13:20
   from 'C:\xampp\htdocs\Progra\EjerProgra\templates\Admin.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.34-dev-7',
-  'unifunc' => 'content_5f0cb172ebf2c4_15241380',
+  'unifunc' => 'content_5f0cb250d40899_30384359',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '8e0523c12e20d494e76c621ff561d961b55019a0' => 
     array (
       0 => 'C:\\xampp\\htdocs\\Progra\\EjerProgra\\templates\\Admin.tpl',
-      1 => 1594667377,
+      1 => 1594667544,
       2 => 'file',
     ),
   ),
@@ -22,7 +22,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:AdminHDUser.tpl' => 1,
   ),
 ),false)) {
-function content_5f0cb172ebf2c4_15241380 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5f0cb250d40899_30384359 (Smarty_Internal_Template $_smarty_tpl) {
 ?><div class="row justify-content-md-center">
 	<div class="col-12 ">
 		<ul class="nav alert-primary">
@@ -69,7 +69,7 @@ function content_5f0cb172ebf2c4_15241380 (Smarty_Internal_Template $_smarty_tpl)
 			<?php } elseif ($_smarty_tpl->tpl_vars['ventana']->value == "vvi") {?>
 				<p>ventana ver inventario</p>
 			<?php } else { ?>
-			<p>info de la empresa</p>
+
 			<?php }?>
 		<?php } else { ?>
 			<p>info de la empresa</p>

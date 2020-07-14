@@ -11,7 +11,7 @@
 				<input type="password" class="form-control" name="password" id="password" >
 			</div><br>
 			<div class="form-group">
-				<label for="tipo">Tipo Trabajador</label>
+				<label for="tipo">Tipo</label>
 				<select class="form-control" name="tipo" id="tipo">
 					<option value="Trabajador">Trabajador</option>
 					<option value="Administrador">Administrador</option>
