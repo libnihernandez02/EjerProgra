@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.34-dev-7, created on 2020-06-24 20:57:17
+/* Smarty version 3.1.34-dev-7, created on 2020-07-16 23:29:57
   from 'C:\xampp\htdocs\Progra\EjerProgra\templates\Login.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.34-dev-7',
-  'unifunc' => 'content_5ef3a20dbeba74_83566098',
+  'unifunc' => 'content_5f10c6d5b30695_90802626',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'dd74ae7e4e5a1b79334ae7239d575ac9f039c3f7' => 
     array (
       0 => 'C:\\xampp\\htdocs\\Progra\\EjerProgra\\templates\\Login.tpl',
-      1 => 1593025022,
+      1 => 1594765651,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5ef3a20dbeba74_83566098 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5f10c6d5b30695_90802626 (Smarty_Internal_Template $_smarty_tpl) {
 ?><div class="row justify-content-md-center">
 	<div class="col-6 ">
 		<br><h1>LOGIN</h1><br>
@@ -34,7 +34,7 @@ function content_5ef3a20dbeba74_83566098 (Smarty_Internal_Template $_smarty_tpl)
 				<input type="password" class="form-control" name="password" id="password" >
 			</div><br>
 			<div class="form-group">
-				<label for="tipo">Tipo Trabajador</label>
+				<label for="tipo">Tipo</label>
 				<select class="form-control" name="tipo" id="tipo">
 					<option value="Trabajador">Trabajador</option>
 					<option value="Administrador">Administrador</option>
